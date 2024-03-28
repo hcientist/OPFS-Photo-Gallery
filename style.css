@@ -1,0 +1,25 @@
+#dropbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
+  min-width: 10rem;
+  border: 1rem dashed black;
+}
+#preview {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border: 1rem solid black;
+  min-height: 10rem;
+}
+
+.obj img {
+  max-width: 10rem;
+  max-height: 10rem;
+  object-fit: contain;
+}
+
+.obj {
+  border: 1px dotted black;
+}

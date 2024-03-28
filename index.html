@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPFS Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://fav.farm/🖼️">
+</head>
+
+<body>
+  <h1>OPFS Photo Gallery</h1>
+
+  <h2>Input</h2>
+  <form name="uploadForm" action="#">
+    <div id="dropbox">
+      <div>Drop photos here or use the Browse button below</div>
+    </div>
+    <div>
+      <input id="uploadInput" type="file" multiple>
+      <label for="fileNum">Selected files:</label>
+      <output id="fileNum">0</output>;
+      <label for="fileSize">Total size:</label>
+      <output id="fileSize">0</output>
+    </div>
+    <button type="submit" value="Send file">Upload</button>
+  </form>
+
+  <h2>Output</h2>
+  <div id="preview"></div>
+  <script src="main.js"></script>
+</body>
+
+</html>
