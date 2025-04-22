@@ -2,7 +2,7 @@
 
 So... I cobbled together all the MDN examples about:
 1. [Using files from web applications](https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications) (including about [dragging/dropping files](https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications#selecting_files_using_drag_and_drop))
-1. [Origin private file system (<abbr>OPFS</abbr>)](developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system)
+1. [Origin private file system (<abbr>OPFS</abbr>)](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system)
 
 to demonstrate a Photo Gallery that stores the selected files clientside.
 
